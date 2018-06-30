@@ -32,13 +32,6 @@ Install the library with the following command
 ```sh
 python3 setup.py install --user
 ```
-## Tests
-
-This project was tested in Ubuntu 16.04 with the following software:
-
-* Python 3.5.2
-* Python 2.7.12
-* libxml2 2.9.4
 
 ## Example
 ```python
@@ -54,6 +47,14 @@ for lead in ecg:
     # lead['data'] - lead sample data in mv
     print(lead['name'] + " - " + str(lead['nsamples']))
 ```
+
+## Tests
+
+This project was tested in Ubuntu 16.04 with the following software:
+
+* Python 3.5.2
+* Python 2.7.12
+* libxml2 2.9.4
 
 ## License
 
