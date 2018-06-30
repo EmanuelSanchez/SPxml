@@ -32,7 +32,7 @@ Install the library with the following command
 ```sh
 python3 setup.py install --user
 ```
-## Software tested
+## Tests
 
 This project was tested in Ubuntu 16.04 with the following software:
 
